@@ -1,0 +1,106 @@
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+body {
+    margin: 0;
+    background-color: whitesmoke;
+    
+}
+
+header{
+    background-color: #364552;
+    color: white;
+    padding: 10px 10px;
+}
+
+header h1 {
+    font-size: 35px;
+    text-align: center;
+}
+table{
+   border-collapse: collapse;
+   padding: 0.25rem 2rem;
+   margin: 2rem 0 16rem;
+   border-radius: 0.5rem;
+   
+ 
+}
+tr,td {
+    border: solid 1px #eee;
+    padding: 20px;
+}
+
+.Form{
+    transition: all 0.3s ease;
+    width: 300px;
+    padding: 14px;
+    transition: all 0.3s ease;
+    border-radius: 0.5rem;
+    border: solid 1px black;
+    text-align: center;
+    display: grid;
+    background-color: #fff;
+    margin: 1rem 1rem 10rem 10rem;
+    border-radius: 0.5rem;
+	
+    
+}
+.ofer{
+  
+    text-align: center;
+    
+}
+.container {
+    
+    width: 350px;
+    margin: 10rem 10rem 10rem 10rem;
+    padding: 14px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    text-align: center;
+}
+
+section article{
+    transition: all 0.3s ease;
+    background-color: #fff;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    padding: 0.25rem 0;
+    cursor:pointer;
+  
+
+}
+section article:hover{
+    box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,0.3);
+}
+
+section article h2, section article p{
+    margin: 1rem;
+}
+
+footer{
+    background-color: #222;
+    padding: 3rem;
+    color:#fff;
+}
+
+footer section{
+    float: right;
+}
+
+footer p{
+    margin:0;
+}
+
+footer a{
+    transition: color 0.3s ease;
+    color:white;
+    text-decoration: none;
+     
+}
+
+footer a:hover{
+    color:cadetblue;
+}
+/* codigo hecho por Romain Baby */
