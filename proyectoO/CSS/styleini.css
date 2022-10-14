@@ -1,0 +1,156 @@
+/* codigo hecho por Romain Baby */
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+
+  
+body {
+    margin: 0;
+    background-color: #efeeef;
+    
+}
+
+header{
+    background-color: #364552;
+    color: white;
+    padding: 82px 90px;
+    position: relative;
+    box-shadow: none;
+    border-bottom: 10rem;
+    
+   
+ 
+    
+}
+#titul{
+    background-color: #364552;
+    color: white;
+    padding: 28px 3rem;
+    
+   
+}
+#tit{
+    padding-left: 5rem;
+}
+#titu{
+    background-color: #364552;
+    color: white;
+    padding: 8px 9px;
+    
+    position: relative;
+    box-shadow: none;
+    border-bottom: 10rem;
+}
+
+
+#img{
+    padding-top: 1rem;
+    padding-left: 1rem;
+    margin: 0 ;
+    position: fixed;
+    top:0;
+    z-index: 100;
+  
+   
+}
+
+
+.container {
+  
+    padding-top: 8rem;
+    padding-left: 33rem;
+    width: 350px;
+    height: 100%;
+    margin: 0 ;
+    position: fixed;
+    top:0;
+    z-index: 100;
+    
+}
+
+section article{
+ 
+    transition: all 0.3s ease;
+    background-color: #fff;
+    margin: 2rem 0 1rem ;
+    border-radius: 0.5rem;
+    text-align: center;
+    padding: 1rem 1rem 1rem 1rem;
+    display: block;
+    
+  
+
+}
+.us{
+    padding-top: 1rem;
+    font-size: 20px;
+}
+
+.admin{
+    padding-top: 3rem;
+    font-size: 20px;
+}
+
+.but{
+   margin-top: 1rem;
+   font-size: 18px;
+   border: none;
+    transition-duration: 0.4s;
+   border-radius: 5px;
+ 
+
+  
+}
+.but:hover, .but2:hover {
+    background-color: #364552; /* Green */
+    color: white;
+  }
+
+.but2{
+    margin-top: 1rem;
+    font-size: 18px;
+    border: none;
+    transition-duration: 0.4s;
+   border-radius: 5px;
+}
+
+
+
+
+section article h2, section article p{
+    margin: 1rem;
+}
+
+footer{
+   
+    background-color: #222;
+    margin: 25rem 0rem 0rem 0rem;
+   
+    padding: 2rem;
+    color:#fff;
+   
+   border: 10rem;
+  
+
+    width: 95.2%;
+    
+}
+
+footer section{
+    float: right;
+
+}
+
+footer p{
+    margin:0;
+}
+
+footer a{
+    transition: color 0.3s ease;
+    color:white;
+    text-decoration: none;
+}
+
+footer a:hover{
+    color:cadetblue;
+}

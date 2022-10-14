@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title>Ingrese sus datos para confirmar su compra</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <link rel="stylesheet" href="CSS/datosUS.css">
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+        <script src="JS/swwe.js"></script>
+        <script src="JS/sweetAlert.js"></script>
+        
+    </head>    
+    <header id="titulo">
+        <h1 id="titulo">OnlyMarket su mejor opción</h1>
+    </header>
+   
+    <body>
+        <script>swal({
+            title: "Ingresa tus datos",
+            text: "Por favor rellena todos los campos",
+            button: "Less goo" 
+          });
+            </script>
+        <form action="VistaUs.html" class="datos">
+        <br>
+        <h1 class="tit">Bienvenido</h1>
+    <input type="text" class="input"name="nombre" id="nombre" required>
+    <label for="" class="label">Nombre</label>
+       <input type="text" class="input" name="ape" id="ape" required>
+       <label for="" class="label">Apellidos</label>
+       <input type="text" class="input"name="celec" id="celec" required>
+       <label for="" class="label">Correo Electronico</label>
+        <label for="" class="label1">Forma de pago:</label><select name="pago" id="pago" class="input">
+            <option value="Tarjeta de Credito">Tarjeta de Debito</option>
+            <option value="Tarjeta de Debito">Tarjeta de Credito</option>
+            <option value="Efectivo">Efectivo</option>
+            </select>
+            <br>
+            <input type="submit" class="sub" value="Enviar datos">
+        </form>
+        <button onclick="mostrar()">Mostrar</button>
+       <script src="JS/us.js"></script>
+    </body>
+</html>
