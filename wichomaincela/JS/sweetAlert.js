@@ -1,0 +1,4 @@
+
+function mostrar(){
+    swal('Hola');
+}
